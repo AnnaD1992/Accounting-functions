@@ -1,0 +1,56 @@
+# The Accounting Equation: Assets = Liability + Owner’s Equity
+
+liability=10500
+
+equity=24000
+
+assets=liability+equity
+
+print('The assets is equal' + " "+ str(assets))
+
+#Net income: Revenues – Expenses = Net Income
+
+revenues = 200000
+expenses= 50000
+
+net_income=revenues-expenses
+print("Net income for this quarter is equal" + " " + str(net_income))
+
+#Break-Even Point: Break-Even Volume = Fixed Costs / Sales Price – Variable Cost Per Unit
+fixed_costs=500
+sales_price=1000
+variable_cost=200
+
+break_even=fixed_costs/sales_price-variable_cost
+
+print("Break-even volume is " +str(break_even))
+
+#Cash Ratio = Cash / Current Liabilities
+cash=1000000
+liability=500000
+
+cash_ratio=cash/liability
+print("Cash ratio is equal " + str(cash_ratio))
+
+#Profit Margin = Net Income / Sales
+sales=8908
+
+profit_margin=net_income/sales
+print("Profit margin is " + str(profit_margin))
+
+#Debt-to-Equity Ratio = Total Liabilities / Total Equity
+total_liabilities =100000
+total_equities = 50000
+
+print("Debt to Equity Ration is equal " + str(total_liabilities/total_equities))
+
+#Cost of Goods Sold  = Cost of Materials/Inventory – Cost of Outputs
+
+materials_costs=8000
+inventory=1000
+output_c=10000
+
+cost_goods=materials_costs/inventory-output_c
+print("Costs of Goods Sold is " + str(cost_goods))
+
+
